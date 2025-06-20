@@ -1,0 +1,14 @@
+[
+  { "id": 1, "matchId": 1, "img": "../assets/apple.webp", "matched": false },
+  { "id": 2, "matchId": 2, "img": "../assets/orange.webp", "matched": false },
+  { "id": 3, "matchId": 3, "img": "../assets/pineapple.png", "matched": false },
+  { "id": 4, "matchId": 4, "img": "../assets/carrot.webp", "matched": false },
+  { "id": 5, "matchId": 5, "img": "../assets/melon.png", "matched": false },
+  { "id": 6, "matchId": 6, "img": "../assets/berry.webp", "matched": false },
+  { "id": 7, "matchId": 1, "img": "../assets/apple.webp", "matched": false },
+  { "id": 8, "matchId": 2, "img": "../assets/orange.webp", "matched": false },
+  { "id": 9, "matchId": 3, "img": "../assets/pineapple.png", "matched": false },
+  { "id": 10, "matchId": 4, "img": "../assets/carrot.webp", "matched": false },
+  { "id": 11, "matchId": 5, "img": "../assets/melon.png", "matched": false },
+  { "id": 12, "matchId": 6, "img": "../assets/berry.webp", "matched": false }
+]

@@ -1,0 +1,137 @@
+body {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  text-align: center;
+}
+
+.main-game {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.twoByTwo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.twoByTwo div {
+  font-weight: bolder;
+  font-size: larger;
+  background-color: #4db050;
+  color: #ffffff;
+  border: 1px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  cursor: pointer;
+}
+
+.threeByTwo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.threeByTwo div {
+  font-weight: bolder;
+  font-size: larger;
+  background-color: #4db050;
+  color: #ffffff;
+  border: 1px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  cursor: pointer;
+}
+
+.fourByTwo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.fourByTwo div {
+  font-weight: bolder;
+  font-size: larger;
+  background-color: #4db050;
+  color: #ffffff;
+  border: 1px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  cursor: pointer;
+}
+
+.main-game div {
+  font-weight: bolder;
+  font-size: larger;
+  background-color: #4db050;
+  color: #ffffff;
+  border: 1px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  cursor: pointer;
+}
+
+.image-hidden {
+  width: 0px;
+}
+
+.image-visible {
+  width: 50px;
+}
+
+.matched {
+  background-color: #4db050;
+  width: 50px;
+}
+
+#grids {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+#timer{
+  font-family: monospace;
+}
+
+#flips{
+  font-family: monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#restartButton{
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.hideButton{
+  display: none;
+}
